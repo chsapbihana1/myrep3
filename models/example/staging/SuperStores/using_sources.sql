@@ -1,3 +1,3 @@
 select *
-from {{ source('conn_to_superstore', 'SUPERSTORE') }}
+from {{ source('conn_to_superstore', 'superstore') }}
 

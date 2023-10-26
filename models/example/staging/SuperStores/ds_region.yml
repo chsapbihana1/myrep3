@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: snowflake_conn
-    description: connection to snowflake
+  - name: conn_to_region
+    description: connection to region table
     database: A
     schema: PUBLIC
     tables:

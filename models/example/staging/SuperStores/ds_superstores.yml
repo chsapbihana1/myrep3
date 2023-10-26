@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  - name: snowflake_conn_region
-    description: connection to snowflake
+  - name: conn_to_superstore
+    description: connection to superstore table
     database: A
     schema: PUBLIC
     tables:
-      - name: SUPERSTORES
+      - name: SUPERSTORE
         description: super_store table.

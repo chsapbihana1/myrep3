@@ -6,5 +6,5 @@ sources:
     database: A
     schema: PUBLIC
     tables:
-      - name: SUPERSTORE
+      - name: superstore
         description: super_store table.

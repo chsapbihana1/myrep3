@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_conn
+    description: connection to snowflake
+    database: A
+    schema: PUBLIC
+    tables:
+      - name: SUPERSTORES
+        description: super_store table.

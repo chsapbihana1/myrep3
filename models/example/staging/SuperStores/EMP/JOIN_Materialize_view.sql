@@ -1,4 +1,3 @@
-{{config(materialized ='view')}}
 with 
 cte3 as (select * From {{ref("EMP")}} ),
 cte4 as (select * From {{ref("DEPT")}})
